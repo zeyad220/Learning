@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learning Adventure</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="animations.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&family=Nunito:wght@600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="app-container">
+    <header>
+      <div class="logo-container">
+        <div class="logo-icon">ABC</div>
+        <h1>Learning Adventure</h1>
+      </div>
+    </header>
+
+    <main>
+
+
+      <section class="intro-section">
+        <h2>Welcome to the Alphabet Adventure!</h2>
+        <div class="instructions">
+          <p><span class="highlight">🎮 Play</span> and learn the English alphabet</p>
+        </div>
+                  <a href="https://www.youtube.com/watch?v=BELlZKpi1Zs" target="_blank">Alphabet Video</a>
+                                  <br>
+
+
+      </section>
+
+      <section class="alphabet-container">
+        <!-- Alphabet letters will be dynamically inserted here -->
+      </section>
+
+ <section class="letter-detail-container hidden">
+        <div class="back-button">← Back to all letters</div>
+        <div class="letter-detail">
+          <!-- Letter detail content will be dynamically inserted here -->
+        </div>
+      </section>
+    </main>
+
+
+      <section class="intro-section">
+        <h2>Numbers</h2>
+        <p><span class="highlight">1️⃣</span> learn the Numbers</p>
+        <a href="https://www.youtube.com/watch?v=o0IsBUaoTrQ" target="_blank">Numbers Video</a>
+                        <br>
+
+      <br>
+      <section class="numbers-container hidden">
+  <!-- Numbers will be dynamically inserted here -->
+    </section>
+
+
+
+     <section class="intro-section">
+        <h2>Colors</h2>
+        <p><span class="highlight">🔴</span> learn the Colors</p>
+        <a href="https://www.youtube.com/watch?v=tkpfg-1FJLU" target="_blank">Colors Video</a>
+                        <br>
+
+      <br>
+      <section class="colors-container hidden">
+      <!-- colors will be dynamically inserted here -->
+      </section>
+
+
+
+     
+
+    <footer>
+      <p>Created By Mrs Shimaa with ❤️ for little learners</p>
+    </footer>
+  </div>
+
+  <div class="audio-player">
+    <!-- Audio player will be dynamically created -->
+  </div>
+
+  <script src="data.js"></script>
+  <script src="audio.js"></script>
+  <script src="ui.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
